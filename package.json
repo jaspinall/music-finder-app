@@ -1,0 +1,32 @@
+{
+  "name": "musicfinder",
+  "version": "1.0.0",
+  "description": "find related artists using the spotify API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "spotify",
+    "music"
+  ],
+  "author": "Julia Aspinall",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-animate": "^1.6.1",
+    "angular-aria": "^1.6.1",
+    "angular-material": "^1.1.3",
+    "angular-route": "^1.6.1",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
+    "less": "^2.7.2",
+    "mocha": "^3.2.0"
+  }
+}
