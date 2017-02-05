@@ -1,3 +1,55 @@
-.hello {
-  background-color: blue;
+body {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  .removeWhiteSpace
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.removeWhiteSpace {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  .removeWhiteSpace
+}
+
+.restrictSize {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+
+.featuredArtist {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  img {
+    .restrictSize;
+    .removeWhiteSpace;
+    max-height: 275px;
+    max-width: 300px;
+  }
+}
+
+.relatedArtists {
+  margin: 10px;
+  padding: 50px;
+}
+
+.relatedArtist {
+  width: 200px;
+  height: 200px;
+  img {
+    .restrictSize;
+    .removeWhiteSpace;
+    max-height: 175px;
+    max-width: 200px;
+  }
 }
