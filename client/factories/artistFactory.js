@@ -5,7 +5,7 @@ angular
 function ArtistFactory($http) {
   const featuredArtist = {};
   const relatedArtists = [];
-  return ({
+  return({
     getArtist: () => {
       return featuredArtist;
     },
@@ -47,5 +47,5 @@ function ArtistFactory($http) {
         })
       )
     }
-  })
+  });
 }

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start",
+    "build": "gulp"
   },
   "keywords": [
     "angular",
@@ -23,9 +24,13 @@
     "express": "^4.14.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-less": "^3.3.0",
+    "angular-mocks": "^1.6.2",
     "jasmine": "^2.5.3",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-spec-reporter": "0.0.26",
     "less": "^2.7.2"
   }
 }
